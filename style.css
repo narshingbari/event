@@ -2002,13 +2002,3 @@ h2 {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: teal;
-    color: white;
-    text-align: center;
-}
