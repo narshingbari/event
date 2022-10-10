@@ -253,70 +253,112 @@ html, body {
           animation-delay: 0s;
 }
 .untitled__slide:nth-child(1) .untitled__slideBg {
-  background-image: url(https://i.postimg.cc/8P6MW4qQ/images-1.jpg);
+  background-image: url(https://i.postimg.cc/FHJmgWvv/IMG-20200216-123357.jpg);
 }
 .untitled__slide:nth-child(2) {
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }
 .untitled__slide:nth-child(2) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1078);
+  background-image: url(https://i.postimg.cc/vT66d79d/Whats-App-Image-2022-07-25-at-9-35-42-PM-1.jpg);
 }
 .untitled__slide:nth-child(3) {
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
 }
 .untitled__slide:nth-child(3) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1077);
+  background-image: url(https://i.postimg.cc/Fs1q5Y7s/Face-App-1571693827672.jpg);
 }
 .untitled__slide:nth-child(4) {
   -webkit-animation-delay: 15s;
           animation-delay: 15s;
 }
 .untitled__slide:nth-child(4) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1200?image=345);
+  background-image: url(https://i.postimg.cc/MT3ywKF1/unnamed-615x300.jpg);
 }
 .untitled__slide:nth-child(5) {
   -webkit-animation-delay: 20s;
           animation-delay: 20s;
 }
 .untitled__slide:nth-child(5) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1077);
+  background-image: url(https://i.postimg.cc/GtNJFhPb/IMG-20211122-140129.jpg);
 }
 .untitled__slide:nth-child(6) {
   -webkit-animation-delay: 25s;
           animation-delay: 25s;
 }
 .untitled__slide:nth-child(6) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1077);
+  background-image: url(https://i.postimg.cc/mrX4N0nm/Narshingbari-Saddam-Computer-Cource-Goa.jpg);
 }
 .untitled__slide:nth-child(7) {
   -webkit-animation-delay: 30s;
           animation-delay: 30s;
 }
 .untitled__slide:nth-child(7) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1077);
+  background-image: url(https://i.postimg.cc/4xv2gVbt/Tamil-nadu-1.jpg);
 }
 .untitled__slide:nth-child(8) {
   -webkit-animation-delay: 35s;
           animation-delay: 35s;
 }
 .untitled__slide:nth-child(8) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1077);
+  background-image: url(https://i.postimg.cc/D0z2K7Xk/IMG-20200216-121745.jpg);
 }
 .untitled__slide:nth-child(9) {
   -webkit-animation-delay: 40s;
           animation-delay: 40s;
 }
 .untitled__slide:nth-child(9) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1077);
+  background-image: url(https://i.postimg.cc/8P4TzJH8/IMG-20200525-104358.jpg);
 }
 .untitled__slide:nth-child(10) {
   -webkit-animation-delay: 45s;
           animation-delay: 45s;
 }
 .untitled__slide:nth-child(10) .untitled__slideBg {
-  background-image: url(https://unsplash.it/g/1500/1000?image=1077);
+  background-image: url(https://i.postimg.cc/fLJXTQXX/images-1.jpg);
+}
+.untitled__slide:nth-child(11) {
+  -webkit-animation-delay: 50s;
+          animation-delay: 50s;
+}
+.untitled__slide:nth-child(11) .untitled__slideBg {
+  background-image: url(https://i.postimg.cc/DzWySvj2/IMG-20181125-091245.jpg);
+}
+.untitled__slide:nth-child(12) {
+  -webkit-animation-delay: 55s;
+          animation-delay: 55s;
+}
+.untitled__slide:nth-child(12) .untitled__slideBg {
+  background-image: url(https://i.postimg.cc/tTBjk8mr/IMG-20200216-122647.jpg);
+}
+.untitled__slide:nth-child(13) {
+  -webkit-animation-delay: 60s;
+          animation-delay: 60s;
+}
+.untitled__slide:nth-child(13) .untitled__slideBg {
+  background-image: url(https://i.postimg.cc/SNFwbSFB/IMG-20200216-123950.jpg);
+}
+.untitled__slide:nth-child(14) {
+  -webkit-animation-delay: 65s;
+          animation-delay: 65s;
+}
+.untitled__slide:nth-child(14) .untitled__slideBg {
+  background-image: url(https://i.postimg.cc/mDLwRn2W/IMG-20200825-060603.jpg);
+}
+.untitled__slide:nth-child(15) {
+  -webkit-animation-delay: 70s;
+          animation-delay: 70s;
+}
+.untitled__slide:nth-child(15) .untitled__slideBg {
+  background-image: url(https://i.postimg.cc/MGWRjQky/Narshingbari-Saddam-Computer-Cource.jpg);
+}
+.untitled__slide:nth-child(16) {
+  -webkit-animation-delay: 75s;
+          animation-delay: 75s;
+}
+.untitled__slide:nth-child(16) .untitled__slideBg {
+  background-image: url(https://i.postimg.cc/vT66d79d/Whats-App-Image-2022-07-25-at-9-35-42-PM-1.jpg);
 }
 .untitled__slideBg {
   position: relative;
