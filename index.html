@@ -2,29 +2,53 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - CSS3 Fullscreen Background Slideshow</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <title>CodePen - Split-screen Slideshow</title>
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<ul class="slideshow">
-  <li><span>Image 01</span><div><h3>A little something something</h3></div></li>
-  <li><span>Image 02</span></li>
-  <li><span>Image 03</span></li>
-  <li><span>Image 04</span></li>
-  <li><span>Image 05</span></li>
-  <li><span>Image 06</span></li>
-</ul>
-  <div class="container">
-    <header>
-      <h1>CSS3 <span>Fullscreen Slideshow</span></h1>
-  </header>
-</div>
+<div id="container">
+  <ul id="slides">
+    <li class="slide">
+      <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/forest-left.jpg"/></div>
+      <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/forest-right.jpg"/></div>
+      <h1 class="title"><span class="title-text">Forest</span></h1>
+    </li>
+    <li class="slide">
+      <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/mountain-left.jpg"/></div>
+      <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/mountain-right.jpg"/></div>
+      <h1 class="title"><span class="title-text">Mountain</span></h1>
+    </li>
+    <li class="slide">
+      <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/ocean-left.jpg"/></div>
+      <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/ocean-right.jpg"/></div>
+      <h1 class="title"><span class="title-text">Ocean</span></h1>
+    </li>
+    <li class="slide">
+      <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/canyon-left.jpg"/></div>
+      <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/canyon-right.jpg"/></div>
+      <h1 class="title"><span class="title-text">Canyon</span></h1>
+    </li>
+    <li class="slide">
+      <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/lake-left.jpg"/></div>
+      <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/lake-right.jpg"/></div>
+      <h1 class="title"><span class="title-text">Lake</span></h1>
+    </li>
+  </ul>
+  <ul id="slide-select">
+    <li class="btn prev"><</li>
+    <li class="selector"></li>
+    <li class="selector"></li>
+    <li class="selector"></li>
+    <li class="selector"></li>
+    <li class="selector"></li>
+    <li class="btn next">></li>
+  </ul>
+</div><a class="codepen-link" href="https://www.codepen.io/seanfree" target="_blank"></a>
 <!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
