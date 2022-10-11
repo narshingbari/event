@@ -1,5 +1,10 @@
-const { Slendr } = window.slendr
+const {
+    Slendr
+} = window.slendr
 
-new Slendr({ slideshow: true, keyboard: true })
+new Slendr({
+    slideshow: true,
+    keyboard: true
+})
 
-// More info at https://github.com/joseluisq/slendr
+// More info at https://narshingbaristore.blogspot.com
